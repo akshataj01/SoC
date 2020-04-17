@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/f240b54679.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flex_layout.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="overlay.css">
+
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul class="header-nav__list">
+                <li class="current"><a href="index.html" title="home">Home</a></li>
+                <li><a   href="#about" title="about">About</a></li>
+                <li><a href="http://abhyudayiitb.org/fest_2020" title="social fest">Social Fest</a></li>
+                <li><a href="http://www.abhyudayiitb.org/events.html" title="events">Events</a></li>
+                <li><a href="http://www.abhyudayiitb.org/events.html" title="campaigns">Campaigns</a></li>
+                <li><a href="http://www.abhyudayiitb.org/competitions.html" title="competitions">Competitions</a></li>
+                <li><a href="shttp://www.abhyudayiitb.org/sponsors.html" title="sponsers">Sponsors</a></li>
+                <li><a href="http://abhyudayiitb.org/main2k18/team.html" title="team">Team</a></li>
+                <li><a   href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fixed"><span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; MENU</span></div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+    <div class="part1" id ="top">
+        <header>
+            <a href="index.html"><img src="./images/logo.png" width="300px" alt="" class="logo"></a>
+            <nav class="navbar">
+                &emsp; &emsp; <a href="#about">About Us</a>
+                &emsp; &emsp; <a href="#contact">Contact</a>
+                &emsp; &emsp; <a href="#Register">Register</a>
+            </nav>
+        </header>
+        <section class="home_content">
+            <br><br><br><br><br><br><br><br>
+            <h1>Abhyuday</h1>
+            <br>
+            <h3 class= "subtitle">The social body of IIT Bombay</h3>
+        </section>
+        <br><br>
+        <div>
+            <ul class="content0">
+                <li><h2>Follow Us</h2></li>
+                <li><a href="https://www.facebook.com/abhyuday.iitb/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/iitbombay_abhyuday/">Twitter</a></li>
+                <li><a href="https://twitter.com/Abhyuday_IITB?s=07">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/company/abhyuday-iit-bombay">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="about" class="part2">
+        <section class = "info">
+            <h3 class="subhead">/ who we are</h3>
+            <h1>About Us</h1>
+                <br>
+                <div class="info">
+                Abhyuday, started in 2014, with a group of socially inclined students who felt the need for a body, which provides opportunities to the students of the institute who wish to work for a better society. With a vision to channelize the youth towards India's social challenges, Abhyuday has established itself as one of the country’s largest student run social body in the mere span of 4 years. Our flagship being campaigns, we also conduct year long events like conferences, donation drives, exhibitions and provide social fellowship, internship opportunities to the students of the institute. The ‘Social Fest’ usually held in January is a two day extravaganza that celebrates the spirit of social good.
+                </div>
+                <div class="row">
+                    <div class="column social-event" >
+                        <a href="http://abhyudayiitb.org/fest_2020/" target="_blank"><h2>Social Fest</h2></a>
+                        <p>Abhyuday, IIT Bombay organises a social festival every year which inculcates various impactful events,exhibitions, lectures, workshops and competitions to instill a sense of responsibility in the youth towards the society and to create awareness about basic human rights.</p>
+                        <div class="readmore"><a href="http://abhyudayiitb.org/fest_2020/" target ="_blank">Read More</a></div>
+                    </div>
+                    <div class="column">
+                        <img src="./images/campaign_replace.jfif" alt="" class="image1">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="column">
+                        <img src="./images/campaign_replace.jfif" alt="" class="image1">
+                    </div>
+                    <div class="column competitions">
+                        <a href="http://www.abhyudayiitb.org/competitions.html" target="_blank"><h2> Competitions</h2></a>
+                        <p>The competitions at​ Abhyuday, IIT Bombay​ is a platform to provide a sustainable solution model to the ​social problems ​by engaging with the community and stakeholders.​ Competitions has ​covered about​ 25+ states ​and ​45+ cities ​with the participation of​ 800+ teams ​including over ​2000 students ​& Professionals from around​ 1500 colleges ​across the nation till now​.</p>
+                        <div class="readmore"><a href="http://www.abhyudayiitb.org/competitions.html" target ="_blank">Read More</a></div>
+                    </div>                    
+                </div>
+        </section>
+    </div>
+    <div class="part3" >
+        <section></section>
+            <h1 id="Register">Register</h1>
+                <br>
+                <div  class="reg">
+                <form>
+                    <label for="tname"><i class="fas fa-user-friends fa-2x"></i>&emsp;Team name:</label>
+                    <input type="text" id="tname" name="tname"><br><br>
+                    <label for="m1name"><i class="fa fa-user fa-2x"></i>&emsp;Name of member 1:</label>
+                    <input type="text" id="m1name" name="m1name"><br><br>
+                    <label for="m2name"><i class="fa fa-user fa-2x"></i>&emsp; Name of member 2:</label>
+                    <input type="text" id="m2name" name="m2name"><br><br>
+                    <label for="email"><i class="fa fa-envelope fa-2x"></i>&emsp;Email:</label>
+                    <input type="email" id="email" name="email"><br><br>      
+                    <label for="phone"><i class="fa fa-mobile-phone fa-2x"></i>&emsp;Phone:</label>
+                    <input type="text" id="phone" name="phone"><br><br>              
+                    <input type="submit" value="Submit" class="sub-button">
+                </form>
+                </div>
+        </section>
+        <br><br><br><br><br>
+        <section>
+            <div class="oh">
+                <h3 id ="contact" class="subhead">/ contact us</h3>
+                <hr width=17% color=" #cc147f">
+                <br>
+            </div>
+            <div>
+                <p>
+                    <a href="mailto:support@abhyudayiitb.org" class="email">support@abhyudayiitb.org</a>
+                    <span class="contact_number"> +91 7391969073/ +91 9929332274 </span>
+                    </p>
+            </div>
+            <br><br><br>
+            <div class="oh">
+                <h3 class="subhead">/ where to find us </h3>
+                <p class="contact_number">Abhyuday Office <br> Student Activity Centre ( SAC ) <br>IIT Bombay <br> Zip Code - 400076<br></p>
+            </div>
+            <br><br><br>
+            <div>
+                <h3 class="subhead">/ follow us</h3>
+                    <ul class="content">
+                        <li>
+                            <a href="https://www.facebook.com/abhyuday.iitb/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Abhyuday_IITB?s=07" target="_blank"><i class="fab fa-twitter"> </i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/iitbombay_abhyuday/" target="_blank"><i class="fab fa-instagram"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/abhyuday-iit-bombay/" target="_blank"><i class="fab fa-linkedin"> </i></a>    
+                        </li>        
+                        <li class="to_top"> <a href="#top">&emsp;<i class="fas fa-arrow-up"></i> SCROLL TO TOP</a></li>                
+                    </ul>
+                    
+            </div>            
+            <br><br>
+        </section>
+    </div>
+</body>
+</html>

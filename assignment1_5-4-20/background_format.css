@@ -1,0 +1,92 @@
+.bgfirst
+{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("./images/bg.jpeg");
+    background-position: center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    min-height: 100vh;
+}
+.logo
+{
+    position: relative;
+    left: 40px;
+}
+.bgfirst h1
+{
+    color: white;
+    position: relative;
+    left: 75px;
+    margin-bottom: 0%;
+    font-size: 4rem;
+    font-family: "Domine", sans-serif;
+}
+.subtitle
+{
+    color:rgba(255,255,255,0.7);
+    position: relative;
+    top: -15px;
+    left: 75px;
+    font-family: "metropolis-light", sans-serif;
+    font-size:2rem;
+}
+.subtitle::before
+{
+    content: "";
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 2px;
+    width:40px;
+    background-color: darkmagenta;
+}
+.follow
+{
+    position: relative;
+    top: 40px;
+    left:75px;
+    text-decoration: none;
+    color: white;
+}
+.bgfirst a
+{
+    color: white;
+    text-decoration: none;
+}
+.bgfirst a:hover
+{
+    text-decoration: underline;
+}
+.scroll img
+{
+    background-color: white;
+    height:30px;
+    width:30px;
+    border-radius: 100%;
+}
+.scroll
+{   
+    display: inline-block;
+    color:white;
+    position: absolute;
+    right: 10px;
+    bottom:20px;
+    align-items: right;
+}
+.navbar 
+{
+    position: absolute;
+    top:70px;
+    left:300px;
+    display:inline-block;
+    font-size: 24px;
+}
+header span{
+    position: fixed;
+    top:80px;
+    right: 50px;
+}
+h6{
+    color:white;
+    font:2rem;
+}
